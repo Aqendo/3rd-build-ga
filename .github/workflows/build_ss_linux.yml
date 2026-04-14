@@ -79,7 +79,7 @@ jobs:
           ./build-release -t ${{ matrix.target }} $compile_features $compile_compress
           
       - name: Archive artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ss-linux
           path: shadowsocks-rust/build/release/*
@@ -134,7 +134,7 @@ jobs:
           ./build/build-host-release -t ${{ matrix.target }}
 
       - name: Archive artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ss-macos
           path: shadowsocks-rust/build/release/*
@@ -173,7 +173,7 @@ jobs:
           pwsh ./build/build-host-release.ps1
 
       - name: Archive artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ss-windows
           path: shadowsocks-rust/build/release/*
