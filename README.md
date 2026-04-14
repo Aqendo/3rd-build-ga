@@ -8,7 +8,7 @@ This repository contains GitHub Action for each project module.
 
 Build action is triggered by commit message with build type. 
 
-### Build types
+### Build types 
 
 Build all modules:
 - [all]
