@@ -6,7 +6,7 @@ All binaries that used in [Amnezia-VPN](https://github.com/amnezia-vpn) project 
 
 This repository contains GitHub Action for each project module. 
 
-Build action is triggered by commit message with build type.
+Build action is triggered by commit message with build type. 
 
 ### Build types
 
